@@ -1,0 +1,18 @@
+body{
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16;
+    background-image: url(https://cs8.pikabu.ru/post_img/big/2017/04/07/5/1491545769113870851.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;   
+}
+.github__commands{
+    margin: 0 auto;
+    display: block;
+    list-style: none;
+    max-width: 500px;
+}
+.github__commands span{
+    color: tomato;
+}
