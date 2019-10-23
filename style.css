@@ -1,18 +1,30 @@
 body{
     font-weight: 500;
     color: #ffffff;
-    font-size: 16;
-    background-image: url(https://cs8.pikabu.ru/post_img/big/2017/04/07/5/1491545769113870851.jpg);
+    font-size: 16px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url(https://cs8.pikabu.ru/post_img/big/2017/04/07/5/1491545769113870851.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 100px;   
+    padding-top: 30px;
+       
+}
+h1{
+    text-transform: uppercase;
+    color: tomato;
+    text-align: center;
 }
 .github__commands{
     margin: 0 auto;
     display: block;
     list-style: none;
-    max-width: 500px;
+    max-width: 900px;
 }
-.github__commands span{
+.github__commands li{
+    margin-top: 5px;
+    position: relative;
+}
+span{
     color: tomato;
+    font-size: 18px;
+    text-transform: uppercase;
 }
